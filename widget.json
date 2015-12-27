@@ -1,0 +1,6 @@
+{
+  "name": "lightroom-latest",
+  "description": "Pull latest picked & tagged images from a Lightroom Catalog.",
+  "author": "Evan Payne",
+  "email": "evan@evanpayne.com"
+}
