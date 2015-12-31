@@ -16,7 +16,8 @@ render: (output) -> """
 """
 update: (output, domEl) ->
   container = $(domEl).find('#images')
-  images = output.toString().split(",");
+  $(container).html("")
+  images = output.toString().split(",")
   wrap = (image) -> $(container).append """<img src="#{image}" />"""
   wrap image for image in images
 
